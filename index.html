@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,37 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <div class="topnav">
             <img class="logo" src="img/logo.svg" alt="">
-        </nav>
+            <div id="myLinks">
+                <p class="nav-link-title">Menu</p>
+                <a class="nav-link" href="#news">HOME</a>
+                <a class="nav-link" href="#contact">VISIT</a>
+                <a class="nav-link" href="#about">EXHIBITIONS</a>
+                <a class="nav-link" href="#about">PROGRAMS & EVENTS</a>
+                <a class="nav-link" href="#about">STORE</a>
+                <a class="nav-link-button" href="">MEMBERSHIP</a>
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </header>
-    
+
     <section>
         <div class="section-left">
             <h1 class="h1">A Beatiful Adventure Awaits</h1>
@@ -32,25 +52,34 @@
         </div>
         <img class="section-img" src="img/Group 7.svg" alt="">
     </section>
-    
+
     <article class="article-1">
         <div class="article-top">
             <img class="article-top-img" src="img/Rectangle 21.svg" alt="">
-            <h5 class="article-title">Discover Yourself With Nature</h5>
-            <p class="article-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
-            <button class="article-button">LEARN MORE</button>
+            <div class="article-top-container">
+                <h5 class="article-title">Discover Yourself With Nature</h5>
+                <p class="article-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis
+                    nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+                <button class="article-button">LEARN MORE</button>
+            </div>
         </div>
         <img class="article-bottom-img" src="img/Rectangle 22.svg" alt="">
     </article>
 
-    <article class="article-2">
+    
+    <div class="article-2-container">
         <h5 class="article-2-title">News & Updates</h5>
         <span class="article-2-subtitle">VIEW ALL POSTS</span>
+    </div>
+    
+    
+    <article class="article-2">
         <div class="article-2-left">
             <img class="article-2-left-img" src="img/Rectangle 24.png" alt="">
             <div class="media-container">
                 <h5 class="article-2-title">Plants Around Us</h5>
-                <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis
+                    nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                 <time class="article-2-time"><i>December 23, 2021</i></time>
             </div>
         </div>
@@ -59,7 +88,8 @@
                 <img class="article-right-img" src="img/Rectangle 24.svg" alt="">
                 <div class="info-container">
                     <h5 class="article-2-title">Exotic Nature</h5>
-                    <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem </p>
+                    <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt
+                        facilisis nunc lorem </p>
                     <time class="article-2-time"><i>December 23, 2021</i></time>
                 </div>
             </div>
@@ -67,10 +97,10 @@
                 <img class="article-right-img" src="img/Rectangle 24 1.svg" alt="">
                 <div class="info-container">
                     <h5 class="article-2-title">It Starts with Soil</h5>
-                    <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem </p>
+                    <p class="article-2-info">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt
+                        facilisis nunc lorem </p>
                     <time class="article-2-time"><i>December 23, 2021</i></time>
                 </div>
-    
             </div>
         </div>
     </article>
@@ -78,7 +108,8 @@
     <footer>
         <div class="footer-left">
             <img class="logo footer-logo" src="img/logo.svg" alt="">
-            <p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis
+                nuncLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="footer-center">
             <a class="footer-list-title" href="#">Sitemap</a>
@@ -91,17 +122,26 @@
         </div>
         <div class="footer-right">
             <a class="footer-list footer-list-responsive" href="#">Connect</a>
-        <div class="social">
-            <a target="_blanck" href="https://www.twitter.com"><img class="social-logo" src="img/Vector.svg" alt=""></a>
-            <a target="_blanck" href="https://www.facebook.com"><img class="social-logo" src="img/face.svg" alt=""></a>
-            <a target="_blanck" href="https://www.linkedin.com"><img class="social-logo linkedin" src="img/linkedin-svgrepo-com.svg" alt=""></a>
-            <a href="mailto:oguz_adiguzel@outlook.com"><img class="social-logo linkedin" src="img/mail-svgrepo-com.svg" alt=""></a>
+            <div class="social">
+                <a target="_blanck" href="https://www.twitter.com"><img class="social-logo" src="img/Vector.svg"
+                        alt=""></a>
+                <a target="_blanck" href="https://www.facebook.com"><img class="social-logo" src="img/face.svg"
+                        alt=""></a>
+                <a target="_blanck" href="https://www.linkedin.com"><img class="social-logo linkedin"
+                        src="img/linkedin-svgrepo-com.svg" alt=""></a>
+                <a href="mailto:oguz_adiguzel@outlook.com"><img class="social-logo linkedin"
+                        src="img/mail-svgrepo-com.svg" alt=""></a>
+            </div>
         </div>
-        </div>   
     </footer>
     <div class="footer-bottom">
         <p class="footer-bottom-info">© 2021 Mist Gardens. All rights reserved.</p>
     </div>
 
+
+    <script src="app.js"></script>
+
+
 </body>
+
 </html>
