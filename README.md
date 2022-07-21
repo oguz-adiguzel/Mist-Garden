@@ -5,7 +5,6 @@ https://www.figma.com/file/nfbhGZOcYj3D48yDRPZEYp/Botanical-Garden-(Community)-(
 
 ## Images
 
-<img src="img/mist-garden.png" width="60%">
 
 ## Languages and Libraries
 
