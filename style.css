@@ -555,7 +555,7 @@ footer{
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    height: 120vh;
+    height: 130vh;
 }
 .article-top{
     display: flex;
