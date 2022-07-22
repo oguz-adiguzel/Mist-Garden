@@ -655,7 +655,7 @@ footer{
     flex-direction: row;
     padding: 2rem 3rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .footer-left{
@@ -663,12 +663,12 @@ footer{
     width: 30%;
 }
 .footer-center{
-    width: 33%;
+    width: 35%;
     padding-left: 8rem;
 }
 .footer-right{
     margin-top: 1rem;
-    width: 33%;
+    width: 20%;
     padding-left: 3rem;
 }
 .footer-info{
